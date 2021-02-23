@@ -1,0 +1,15 @@
+.wp-block {
+	width: 100% !important;
+	max-width: 1200px !important;
+}
+.editor-styles-wrapper .editor-writing-flow {
+	margin: 0 !important;
+	max-width: 1200px !important;
+}
+.editor-styles-wrapper .reusable-block-edit-panel iframe {
+	background-color: #f5f5f5!important;
+}
+
+.block-editor img.components-responsive-wrapper__content[src$=".svg"] {
+	position: absolute;
+}

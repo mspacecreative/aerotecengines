@@ -1,0 +1,23 @@
+.inline-links, .inline-links-wrap {
+	display: inline-block;
+	margin-top: 0;
+	margin-right: 15px;
+}
+
+.inline-links-wrap > a {
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	line-height: 1.5em;
+	color: #2ea3f2;
+	border: 2px solid #2ea3f2;
+	margin-top: 15px;
+	padding: 10px 15px;
+	font-size: 17px;
+	transition: 0.25s ease-in-out;
+}
+
+.inline-links-wrap > a:hover {
+	background-color: $goldcolor;
+	transition: 0.25s ease-in-out;
+}
