@@ -19,17 +19,16 @@
 			justify-content: flex-start;
 		}
 		.zoho_left_col, .zoho_right_col {
-			flex: 0 0 50%;
 			padding: 0 30px;
-		}
-		.zoho_left_col {
-			border-right: 1px solid #e9e9e9;
 		}
 		.full_width > div {
 			flex: 0 0 100%;
 		}
 		.has_helper > div {
 			flex: 0 0 auto;
+		}
+		.has_helper > div:last-of-type {
+			flex: 0 0 100%;
 		}
 		.full_width input, .full_width textarea {
 			width: 100%;
@@ -39,6 +38,14 @@
 			flex: 0 0 100%;
 		    display: flex;
 		    justify-content: center;
+		}
+		@media (min-width: 981px) {
+			.zoho_left_col {
+				border-right: 1px solid #e9e9e9;
+			}
+			.zoho_left_col, .zoho_right_col {
+				flex: 0 0 50%;
+			}
 		}
 	</style>
 		
