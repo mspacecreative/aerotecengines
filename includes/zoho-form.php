@@ -45,6 +45,11 @@
 		    text-decoration: none;
 			outline: none;
 			padding: 10px 15px;
+			background-color: transparent;
+		    font-size: 16px;
+		}
+		.zoho_submit_container input[type=submit] {
+			margin-right: 10px;
 		}
 		@media (min-width: 981px) {
 			.zoho_left_col {
