@@ -15,6 +15,9 @@
 			justify-content: space-between;
 			margin-bottom: 1em;
 		}
+		.has_helper {
+			justify-content: flex-start;
+		}
 		.zoho_left_col, .zoho_right_col {
 			flex: 0 0 50%;
 			padding: 0 30px;
@@ -24,6 +27,9 @@
 		}
 		.full_width > div {
 			flex: 0 0 100%;
+		}
+		.has_helper > div {
+			flex: 0 0 auto;
 		}
 		.full_width input, .full_width textarea {
 			width: 100%;
@@ -122,19 +128,19 @@
 					</div>
 				</div>
 				
-				<div class='zcwf_row full_width'>
+				<div class='zcwf_row full_width has_helper'>
 					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
 						<label for='LEADCF10'>Engine S&#x2f;N</label>
+					</div>
+					
+					<div class='zcwf_col_help'><span title='The serial number on your engine' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
+						
+						<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>The serial number on your engine</span></div>
 					</div>
 					
 					<div class='zcwf_col_fld'>
 						<input type='text' id='LEADCF10' name='LEADCF10' maxlength='255'>
 						</input>
-						
-						<div class='zcwf_col_help'><span title='The serial number on your engine' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
-							
-							<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>The serial number on your engine</span></div>
-						</div>
 					</div>
 				</div>
 				
