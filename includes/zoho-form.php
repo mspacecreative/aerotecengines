@@ -151,25 +151,30 @@
 					</div>
 				</div>
 				
-				<div class='zcwf_row full_width'>
+				<div class='zcwf_row full_width has_helper'>
 					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
 						<label for='LEADCF13'>Hours Since Last Overhaul</label>
+					</div>
+					
+					<div class='zcwf_col_help'><span title='How many hours are on your engine since the last overhaul' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
+						
+						<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>How many hours are on your engine since the last overhaul</span></div>
 					</div>
 					
 					<div class='zcwf_col_fld'>
 						<input type='text' id='LEADCF13' name='LEADCF13' maxlength='255'>
 						</input>
-						
-						<div class='zcwf_col_help'><span title='How many hours are on your engine since the last overhaul' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
-							
-							<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>How many hours are on your engine since the last overhaul</span></div>
-						</div>
 					</div>
 				</div>
 				
-				<div class='zcwf_row full_width'>
+				<div class='zcwf_row full_width has_helper'>
 					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
 						<label for='LEADCF12'>Years Since Last Overhaul</label>
+					</div>
+					
+					<div class='zcwf_col_help'><span title='How many years it has been since your engine was last overhauled' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
+						
+						<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>How many years it has been since your engine was last overhauled</span></div>
 					</div>
 					
 					<div class='zcwf_col_fld'>
@@ -279,26 +284,22 @@
 							<option value='50'>50</option>
 						</select>
 						
-						<div class='zcwf_col_help'><span title='How many years it has been since your engine was last overhauled' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
-							
-							<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>How many years it has been since your engine was last overhauled</span></div>
-						</div>
 					</div>
 				</div>
 				
-				<div class='zcwf_row full_width'>
+				<div class='zcwf_row full_width has_helper'>
 					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
 						<label for='LEADCF4'>Tail Registration Number<span style='color:red;'>*</span></label>
+					</div>
+					
+					<div class='zcwf_col_help'><span title='This is your airframe registration number' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
+						
+						<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>This is your airframe registration number</span></div>
 					</div>
 					
 					<div class='zcwf_col_fld'>
 						<input type='text' id='LEADCF4' name='LEADCF4' maxlength='250'>
 						</input>
-						
-						<div class='zcwf_col_help'><span title='This is your airframe registration number' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
-							
-							<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>This is your airframe registration number</span></div>
-						</div>
 					</div>
 				</div>
 			
@@ -332,19 +333,19 @@
 					</div>
 				</div>
 				
-				<div class='zcwf_row full_width'>
+				<div class='zcwf_row full_width has_helper'>
 					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
 						<label for='Company'>Company</label>
+					</div>
+					
+					<div class='zcwf_col_help'><span title='Complete this field if requesting a quote for a company' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
+						
+						<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>Complete this field if requesting a quote for a company</span></div>
 					</div>
 					
 					<div class='zcwf_col_fld'>
 						<input type='text' id='Company' name='Company' maxlength='100'>
 						</input>
-						
-						<div class='zcwf_col_help'><span title='Complete this field if requesting a quote for a company' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
-							
-							<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>Complete this field if requesting a quote for a company</span></div>
-						</div>
 					</div>
 				</div>
 				
@@ -374,18 +375,18 @@
 					</div>
 				</div>
 				
-				<div class='zcwf_row full_width'>
+				<div class='zcwf_row full_width has_helper'>
 					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
 						<label for='LEADCF7'>Additional Comments &#x2f; Questions</label>
 					</div>
 					
+					<div class='zcwf_col_help'><span title='Ex&#x3a; Airframe Model, Airframe S&#x2f;N, Airframe Voltage, Shipping Requirements, etc' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
+						
+						<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>Ex&#x3a; Airframe Model, Airframe S&#x2f;N, Airframe Voltage, Shipping Requirements, etc</span></div>
+					</div>
+					
 					<div class='zcwf_col_fld'>
 						<textarea id='LEADCF7' name='LEADCF7' rows='6'></textarea>
-						
-						<div class='zcwf_col_help'><span title='Ex&#x3a; Airframe Model, Airframe S&#x2f;N, Airframe Voltage, Shipping Requirements, etc' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
-							
-							<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>Ex&#x3a; Airframe Model, Airframe S&#x2f;N, Airframe Voltage, Shipping Requirements, etc</span></div>
-						</div>
 					</div>
 				</div>
 				
