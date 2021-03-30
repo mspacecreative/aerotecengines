@@ -24,8 +24,12 @@
 		.full_width > div {
 			flex: 0 0 100%;
 		}
-		.full_width > input, .full_width > textarea {
+		.full_width input, .full_width textarea {
 			width: 100%;
+		}
+		.zoho_submit_container {
+			margin-top: 50px;
+			text-align: center;
 		}
 	</style>
 		
