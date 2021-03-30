@@ -74,7 +74,7 @@
 				</input>
 				
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='LEADCF104'>Engine Exchange</label>
 					</div>
 					
@@ -87,7 +87,7 @@
 				</div>
 				
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='LEADCF102'>Engine Overhaul</label>
 					</div>
 					
@@ -100,7 +100,7 @@
 				</div>
 				
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='LEADCF109'>Engine Repair &#x2f; IRAN</label>
 					</div>
 					
@@ -113,7 +113,7 @@
 				</div>
 				
 				<div class='zcwf_row'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='LEADCF106'>Prop Strike</label>
 					</div>
 					
@@ -126,7 +126,7 @@
 				</div>
 				
 				<div class='zcwf_row full_width'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='LEADCF3'>Engine Model (include all pre/suffixes)<span style='color:red;'>*</span></label>
 					</div>
 					
@@ -139,7 +139,7 @@
 				</div>
 				
 				<div class='zcwf_row full_width has_helper'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='LEADCF10'>Engine S&#x2f;N</label>
 					</div>
 					
@@ -155,7 +155,7 @@
 				</div>
 				
 				<div class='zcwf_row full_width has_helper'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='LEADCF13'>Hours Since Last Overhaul</label>
 					</div>
 					
@@ -171,7 +171,7 @@
 				</div>
 				
 				<div class='zcwf_row full_width has_helper'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='LEADCF12'>Years Since Last Overhaul</label>
 					</div>
 					
@@ -291,7 +291,7 @@
 				</div>
 				
 				<div class='zcwf_row full_width has_helper'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='LEADCF4'>Tail Registration Number<span style='color:red;'>*</span></label>
 					</div>
 					
@@ -311,7 +311,7 @@
 			<div class="zoho_right_col">
 		
 				<div class='zcwf_row full_width'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='First_Name'>First Name<span style='color:red;'>*</span></label>
 					</div>
 					
@@ -324,7 +324,7 @@
 				</div>
 				
 				<div class='zcwf_row full_width'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='Last_Name'>Last Name<span style='color:red;'>*</span></label>
 					</div>
 					
@@ -337,7 +337,7 @@
 				</div>
 				
 				<div class='zcwf_row full_width has_helper'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='Company'>Company</label>
 					</div>
 					
@@ -353,7 +353,7 @@
 				</div>
 				
 				<div class='zcwf_row full_width'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='Email'>Email</label>
 					</div>
 					
@@ -366,7 +366,7 @@
 				</div>
 				
 				<div class='zcwf_row full_width'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='Phone'>Phone</label>
 					</div>
 					
@@ -379,7 +379,7 @@
 				</div>
 				
 				<div class='zcwf_row full_width has_helper'>
-					<div class='zcwf_col_lab' style='font-size:16px; font-family: Calibri;'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='LEADCF7'>Additional Comments &#x2f; Questions</label>
 					</div>
 					
