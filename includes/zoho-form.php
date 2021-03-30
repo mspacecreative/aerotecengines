@@ -46,6 +46,9 @@
 			.zoho_left_col, .zoho_right_col {
 				flex: 0 0 50%;
 			}
+			.zoho_left_col .zcwf_row:last-of-type, .zoho_right_col .zcwf_row:last-of-type {
+				margin-bottom: 0;
+			}
 		}
 	</style>
 		
