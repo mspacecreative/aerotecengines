@@ -14,7 +14,7 @@
 			flex-wrap: wrap;
 			justify-content: space-between;
 		}
-		.zoho_left_col, zoho_right_col {
+		.zoho_left_col, .zoho_right_col {
 			flex: 0 0 50%;
 			padding: 0 30px;
 		}
@@ -369,6 +369,9 @@
 					</div>
 				</div>
 				
+			</div>
+			
+			<div class="zoho_submit_container">
 				<div class='zcwf_row'>
 					<div class='zcwf_col_lab'></div>
 					
