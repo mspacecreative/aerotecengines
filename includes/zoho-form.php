@@ -13,6 +13,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
+			margin-bottom: 1em;
 		}
 		.zoho_left_col, .zoho_right_col {
 			flex: 0 0 50%;
@@ -29,7 +30,9 @@
 		}
 		.zoho_submit_container {
 			margin-top: 50px;
-			text-align: center;
+			flex: 0 0 100%;
+		    display: flex;
+		    justify-content: center;
 		}
 	</style>
 		
@@ -364,7 +367,7 @@
 					</div>
 					
 					<div class='zcwf_col_fld'>
-						<textarea id='LEADCF7' name='LEADCF7'></textarea>
+						<textarea id='LEADCF7' name='LEADCF7' rows='6'></textarea>
 						
 						<div class='zcwf_col_help'><span title='Ex&#x3a; Airframe Model, Airframe S&#x2f;N, Airframe Voltage, Shipping Requirements, etc' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
 							
