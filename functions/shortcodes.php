@@ -23,3 +23,11 @@ function servicesSingleLoop() {
 	return ob_get_clean();
 }
 add_shortcode( 'services_single_loop', 'servicesSingleLoop' );
+
+// ZOHO FORM
+function zohoForm() {
+	ob_start();
+		get_template_part('includes/zoho-form');
+	return ob_get_clean();
+}
+add_shortcode( 'zoho_form', 'zohoForm' );
