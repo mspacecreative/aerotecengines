@@ -39,6 +39,13 @@
 		    display: flex;
 		    justify-content: center;
 		}
+		.zoho_submit_container input[type=submit], .zoho_submit_container input[type=reset] {
+			color: #b07335;
+		    border: 2px solid #b07335;
+		    text-decoration: none;
+			outline: none;
+			padding: 10px 15px;
+		}
 		@media (min-width: 981px) {
 			.zoho_left_col {
 				border-right: 1px solid #e9e9e9;
