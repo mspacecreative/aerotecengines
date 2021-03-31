@@ -160,15 +160,20 @@ body.et_header_style_left .et-fixed-header #et-top-navigation nav>ul>li>a, body.
 		display: block;
 		top: 25px;
 		right: 80px;
+		transition: 0.5s ease-in-out;
 	}
-	body .switcher .selected a {
+	body.is-active .languageSwitcher.desktop {
+		transform: translateX(-250px);
+		transition: 0.5s ease-in-out;
+	}
+	body .languageSwitcher.desktop .switcher .selected a {
 		width: auto;
 		font-size: 0;
 	}
-	body .switcher .option a {
+	body .languageSwitcher.desktop .switcher .option a {
 		font-size: 0;
 	}
-	body .switcher {
+	body .languageSwitcher.desktop .switcher {
 		width: 45px;
 	}
 }
