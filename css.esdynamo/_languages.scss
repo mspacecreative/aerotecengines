@@ -138,6 +138,40 @@ body.et_header_style_left .et-fixed-header #et-top-navigation nav>ul>li>a, body.
 		top: 0;
 	}
 }
+@media (max-width: 850px) and (orientation: landscape) {
+	.languageSwitcher.desktop {
+		display: block;
+		top: 25px;
+		right: 80px;
+	}
+	.switcher .selected a {
+		width: auto;
+		font-size: 0;
+	}
+	body .switcher .option a {
+		font-size: 0;
+	}
+	.switcher {
+		width: 45px;
+	}
+}
+@media (max-width: 480px) {
+	.languageSwitcher.desktop {
+		display: block;
+		top: 25px;
+		right: 80px;
+	}
+	.switcher .selected a {
+		width: auto;
+		font-size: 0;
+	}
+	body .switcher .option a {
+		font-size: 0;
+	}
+	.switcher {
+		width: 45px;
+	}
+}
 body #logo {
 	max-height: 100%;
 	
