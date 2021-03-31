@@ -175,7 +175,7 @@ body.et_header_style_left .et-fixed-header #et-top-navigation nav > ul > li > a,
 		right: 80px;
 	}
 	
-	.switcher .selected a {
+	body .switcher .selected a {
 		width: auto;
 		font-size: 0;
 	}
@@ -184,7 +184,7 @@ body.et_header_style_left .et-fixed-header #et-top-navigation nav > ul > li > a,
 		font-size: 0;
 	}
 	
-	.switcher {
+	body .switcher {
 		width: 45px;
 	}
 }
@@ -196,7 +196,7 @@ body.et_header_style_left .et-fixed-header #et-top-navigation nav > ul > li > a,
 		right: 80px;
 	}
 	
-	.switcher .selected a {
+	body .switcher .selected a {
 		width: auto;
 		font-size: 0;
 	}
@@ -205,7 +205,7 @@ body.et_header_style_left .et-fixed-header #et-top-navigation nav > ul > li > a,
 		font-size: 0;
 	}
 	
-	.switcher {
+	body .switcher {
 		width: 45px;
 	}
 }
