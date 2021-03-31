@@ -606,6 +606,9 @@ footer p:not(.has-background):last-of-type {
 	.et_pb_gutters3 .footer-widget {
 		margin-bottom: $bottom-margin;
 	}
+	.et-animated-content#page-container {
+		transition: 0.5s ease-in-out!important;
+	}
 }
 
 body:not(.et-tb) #main-content .container, body:not(.et-tb-has-header) #main-content .container {
