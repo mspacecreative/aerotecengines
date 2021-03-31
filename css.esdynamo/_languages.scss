@@ -159,6 +159,14 @@ body.et_header_style_left .et-fixed-header #et-top-navigation nav>ul>li>a, body.
 	body .languageSwitcher.desktop .switcher {
 		width: 45px;
 	}
+	body .hamburger {
+		right: 2em;
+	}
+	header > .container {
+		width: 100%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
 }
 @media (max-width: 480px) {
 	.languageSwitcher.desktop {
@@ -180,6 +188,14 @@ body.et_header_style_left .et-fixed-header #et-top-navigation nav>ul>li>a, body.
 	}
 	body .languageSwitcher.desktop .switcher {
 		width: 45px;
+	}
+	body .hamburger {
+		right: 2em;
+	}
+	header > .container {
+		width: 100%;
+		padding-left: 2em;
+		padding-right: 2em;
 	}
 }
 body #logo {
