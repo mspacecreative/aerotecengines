@@ -368,11 +368,11 @@
 				
 				<div class='zcwf_row full_width'>
 					
-					<div class='zcwf_col_lab'>
+					<div class='zcwf_col_lab' style='font-size:16px;'>
 						<label for='Email'>Email<span style='color:red;'>*</span></label>
 					</div>
 					
-					<div class='zcwf_col_fld' style='font-size:16px;'>
+					<div class='zcwf_col_fld'>
 						<input type='text' ftype='email' id='Email' name='Email' maxlength='100'></input>
 						
 						<!--<div class='zcwf_col_help'></div>-->
