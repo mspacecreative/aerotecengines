@@ -303,13 +303,15 @@
 				</div>
 				
 				<div class='zcwf_row full_width has_helper'>
+					
 					<div class='zcwf_col_lab' style='font-size:16px;'>
-						<label for='LEADCF4'>Tail Registration Number<span style='color:red;'>*</span></label>
+						<label for='LEADCF4'>Tail Registration Number</label>
 					</div>
 					
-					<div class='zcwf_col_help'><span title='This is your airframe registration number' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
-						
+					<div class='zcwf_col_help'> <span title='This is your airframe registration number' style='cursor: pointer; width: 16px; height: 16px; display: inline-block; background: #fff; border: 1px solid #ccc; color: #ccc; text-align: center; font-size: 11px; line-height: 16px; font-weight: bold; border-radius: 50%;' onclick='tooltipShow1559003000002635293(this)'>?</span>
+					
 						<div class='zcwf_tooltip_over' style='display: none;'><span class='zcwf_tooltip_ctn'>This is your airframe registration number</span></div>
+						
 					</div>
 					
 					<div class='zcwf_col_fld'>
@@ -365,15 +367,15 @@
 				</div>
 				
 				<div class='zcwf_row full_width'>
-					<div class='zcwf_col_lab' style='font-size:16px;'>
-						<label for='Email'>Email</label>
+					
+					<div class='zcwf_col_lab'>
+						<label for='Email'>Email<span style='color:red;'>*</span></label>
 					</div>
 					
-					<div class='zcwf_col_fld'>
-						<input type='text' ftype='email' id='Email' name='Email' maxlength='100'>
-						</input>
+					<div class='zcwf_col_fld' style='font-size:16px;'>
+						<input type='text' ftype='email' id='Email' name='Email' maxlength='100'></input>
 						
-						<div class='zcwf_col_help'></div>
+						<!--<div class='zcwf_col_help'></div>-->
 					</div>
 				</div>
 				
