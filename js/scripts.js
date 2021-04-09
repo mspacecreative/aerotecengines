@@ -1,20 +1,5 @@
 (function($) {
 	
-	// OPEN OVERLAY ON ZOHO FORM SUBMISSION
-	var submitButton = $('#formsubmit');
-	var successMessage = $('.form-success-message-container');
-	
-	/*
-	var successMessage = $('.form-success-message-container');
-	$('#zoho-form').submit(function() {
-		successMessage.fadeIn();
-	});
-	*/
-	$('.closeModalButton, .form-success-message-overlay').click(function() {
-		successMessage.fadeOut();
-		$('body').removeClass('success');
-	});
-	
 	function addFixedToBody() {
 		// LANGUAGE SWITCHER
 		var fixedHeader = $('.et-fixed-header');
@@ -141,22 +126,32 @@
 		pgwGallery();
 		checkSize();
 		
+		// OPEN OVERLAY ON ZOHO FORM SUBMISSION
+		var submitButton = $('#formsubmit');
+		var successMessage = $('.form-success-message-container');
+		
 		submitButton.click(function() {
-		    $('body').toggleClass('success');
-		    if($('body').hasClass('success')){
+		    $('body').addClass('success');
+		    if ( $('body').hasClass('success') ) {
 		        localStorage.setItem('form', 'success');
 		    }
 		});
 	
-	submitButton.click(function() {
-		$('body').addClass('success');
-	});
+		submitButton.click(function() {
+			$('body').addClass('success');
+		});
 		
 		var form = localStorage.getItem('form');
 		if(form !== ''){      
 	        $('body').addClass(form);
 	    }
 		
+		$('.closeModalButton, .form-success-message-overlay').click(function() {
+			successMessage.fadeOut();
+			if ( $('body').hasClass('success') ) {
+		        localStorage.setItem('form', '');
+		    }
+		});
 		
 		$(window).on('load', function() {
 			if ( $('body').hasClass('success') ) {
