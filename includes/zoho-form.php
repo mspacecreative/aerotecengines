@@ -444,8 +444,8 @@
 		}
 		
 		function checkMandatory1559003000002635293() {
-			var mndFileds = new Array('First Name', 'Last Name', 'LEADCF3', 'LEADCF4');
-			var fldLangVal = new Array('First\x20Name', 'Last\x20Name', 'Engine\x20Model\x20\x28include\x20all\x20pre\x2Fsuffixes\x29', 'Tail\x20Registration\x20Number');
+			var mndFileds = new Array('First Name', 'Last Name', 'Email', 'LEADCF3');
+			var fldLangVal = new Array('First\x20Name', 'Last\x20Name', 'Email', 'Engine\x20Model\x20\x28include\x20all\x20pre\x2Fsuffixes\x29');
 			for (i = 0; i < mndFileds.length; i++) {
 				var fieldObj = document.forms['WebToLeads1559003000002635293'][mndFileds[i]];
 				if (fieldObj) {
