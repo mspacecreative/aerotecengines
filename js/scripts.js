@@ -144,6 +144,7 @@
 		$('.closeModalButton, .form-success-message-overlay').click(function() {
 			successMessage.fadeOut();
 			$('body').removeClass('success');
+			localStorage.removeItem('form', 'success');
 		});
 		
 		var form = localStorage.getItem('form');
