@@ -141,17 +141,17 @@
 			$('body').addClass('success');
 		});
 		
+		$('.closeModalButton, .form-success-message-overlay').click(function() {
+			successMessage.fadeOut();
+			$('body').removeClass('success');
+		});
+		
 		var form = localStorage.getItem('form');
 		if(form !== ''){      
 	        $('body').addClass(form);
+	    } else {
+	    	$('body').removeClass(form);
 	    }
-		
-		$('.closeModalButton, .form-success-message-overlay').click(function() {
-			successMessage.fadeOut();
-			if ( $('body').hasClass('success') ) {
-		        localStorage.setItem('form', '');
-		    }
-		});
 		
 		$(window).on('load', function() {
 			if ( $('body').hasClass('success') ) {
