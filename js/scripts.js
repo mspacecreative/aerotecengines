@@ -12,10 +12,6 @@
 	    }
 	});
 	
-	if(form !== ''){      
-        $('body').addClass(form);
-    }
-	
 	submitButton.click(function() {
 		$('body').addClass('success');
 	});
@@ -160,6 +156,10 @@
 		pageContainerClear();
 		pgwGallery();
 		checkSize();
+		
+		if(form !== ''){      
+	        $('body').addClass(form);
+	    }
 		
 		$('.testimonials-slider, .photo-gallery').slick({
 		    dots: true,
