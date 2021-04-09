@@ -51,6 +51,46 @@
 		.zoho_submit_container input[type=submit] {
 			margin-right: 10px;
 		}
+		.closeModalButton {
+		    border: none;
+		    margin: 0;
+		    padding: 0;
+		    position: absolute;
+		    width: 20px;
+		    height: 20px;
+		    background-color: transparent;
+		    outline: none;
+		    right: 2em;
+		    top: 1em;
+		    cursor: pointer;
+		    z-index: 999;
+		}
+		.form-success-message-container {
+			position: fixed;
+			height: auto;
+			width: auto;
+			top: 0;
+			left: 0;
+			display: none;
+		}
+		.form-success-message-overlay {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0, 0, 0, .75);
+		}
+		.form-success-message-inner {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			background-color: #fff;
+			padding: 2em;
+			width: 90%;
+			max-width: 600px;
+		}
 		@media (min-width: 981px) {
 			.zoho_left_col {
 				border-right: 1px solid #e9e9e9;
@@ -64,7 +104,7 @@
 		}
 	</style>
 		
-	<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1559003000002635293 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory1559003000002635293()' accept-charset='UTF-8'>
+	<form id="zoho-form" action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1559003000002635293 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory1559003000002635293()' accept-charset='UTF-8'>
 		
 		<div class="zoho_form_container">
 		
@@ -422,6 +462,17 @@
 			</div>
 		</div>
 		
+		<div class="form-success-message-container">
+			<div class="form-success-message-overlay"></div>
+			<div class="form-success-message-inner">
+				<button class="closeModalButton">
+					<span>&nbsp;</span>
+					<span>&nbsp;</span>
+				</button>
+				<p>Thank you for your request for quote. It has been received and we will be in touch soon.</p>
+			</div>
+		</div>
+		
 		<script>
 		function validateEmail1559003000002635293() {
 			var form = document.forms['WebToLeads1559003000002635293'];
@@ -502,6 +553,15 @@
 				tooltip.style.display = 'none';
 			}
 		}
+		(function($) {
+			var successMessage = $('.form-success-message-container');
+			$('#zoho-form').submit(function() {
+				successMessage.fadeIn();
+			});
+			$('.closeModalButton').click(function() {
+				successMessage.fadeOut();
+			});
+		})(jQuery);
 		</script>
 	
 	</form>
