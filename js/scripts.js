@@ -1,5 +1,14 @@
 (function($) {
 	
+	// OPEN OVERLAY ON ZOHO FORM SUBMISSION
+	var successMessage = $('.form-success-message-container');
+	$('#zoho-form').submit(function() {
+		successMessage.fadeIn();
+	});
+	$('.closeModalButton').click(function() {
+		successMessage.fadeOut();
+	});
+	
 	function addFixedToBody() {
 		// LANGUAGE SWITCHER
 		var fixedHeader = $('.et-fixed-header');

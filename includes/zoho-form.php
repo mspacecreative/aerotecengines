@@ -502,15 +502,6 @@
 				tooltip.style.display = 'none';
 			}
 		}
-		(function($) {
-			var successMessage = $('.form-success-message-container');
-			$('#zoho-form').submit(function() {
-				successMessage.fadeIn();
-			});
-			$('.closeModalButton').click(function() {
-				successMessage.fadeOut();
-			});
-		})(jQuery);
 		</script>
 	
 	</form>
