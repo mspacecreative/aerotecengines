@@ -3,7 +3,6 @@
 	// OPEN OVERLAY ON ZOHO FORM SUBMISSION
 	var submitButton = $('#formsubmit');
 	var successMessage = $('.form-success-message-container');
-	var form = sessionStorage.getItem('form');
 	
 	submitButton.click(function() {
 	    $('body').toggleClass('success');
@@ -157,6 +156,7 @@
 		pgwGallery();
 		checkSize();
 		
+		var form = sessionStorage.getItem('form');
 		if(form !== ''){      
 	        $('body').addClass(form);
 	    }
