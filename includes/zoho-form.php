@@ -65,6 +65,19 @@
 		    cursor: pointer;
 		    z-index: 999;
 		}
+		.closeModalButton span {
+		    position: absolute;
+		    width: 20px;
+		    height: 2px;
+		    background-color: #000;
+		    transform: rotate(45deg);
+		    top: 50%;
+		    left: 50%;
+		    margin-left: -10px;
+		}
+		.closeModalButton span:nth-child(2) {
+		    transform: rotate(-45deg);
+		}
 		.form-success-message-container {
 			position: fixed;
 			height: auto;
@@ -459,17 +472,6 @@
 						<input type='reset' class='zcwf_button' name='reset' value='Reset' title='Reset'>
 					</div>
 				</div>
-			</div>
-		</div>
-		
-		<div class="form-success-message-container">
-			<div class="form-success-message-overlay"></div>
-			<div class="form-success-message-inner">
-				<button class="closeModalButton">
-					<span>&nbsp;</span>
-					<span>&nbsp;</span>
-				</button>
-				<p>Thank you for your request for quote. It has been received and we will be in touch soon.</p>
 			</div>
 		</div>
 		
