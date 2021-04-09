@@ -1,13 +1,25 @@
 (function($) {
 	
 	// OPEN OVERLAY ON ZOHO FORM SUBMISSION
+	var submitButton = $('#formsubmit');
 	var successMessage = $('.form-success-message-container');
-	$('#zoho-form').submit(function(e) {
-		e.preventDefault();
+	submitButton.click(function() {
+		$('body').addClass('success');
+	});
+	$(window).on('load', function() {
+		if ( $('body').hasClass('success') ) {
+			successMessage.fadeIn();
+		}
+	});
+	/*
+	var successMessage = $('.form-success-message-container');
+	$('#zoho-form').submit(function() {
 		successMessage.fadeIn();
 	});
+	*/
 	$('.closeModalButton').click(function() {
 		successMessage.fadeOut();
+		$('body').removeClass('success');
 	});
 	
 	function addFixedToBody() {

@@ -24,6 +24,10 @@
 	margin-left: -10px;
 }
 
+.zcwf_col_fld .formsubmit, .zcwf_col_fld input[type=reset] {
+	cursor: pointer;
+}
+
 .closeModalButton span:nth-child(2) {
 	transform: rotate(-45deg);
 }
