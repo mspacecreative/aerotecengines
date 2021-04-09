@@ -3,6 +3,19 @@
 	// OPEN OVERLAY ON ZOHO FORM SUBMISSION
 	var submitButton = $('#formsubmit');
 	var successMessage = $('.form-success-message-container');
+	var form = sessionStorage.getItem('form');
+	
+	submitButton.click(function() {
+	    $('body').toggleClass('success');
+	    if($('body').hasClass('success')){
+	        lsessionStorage.setItem('form', 'success');
+	    }
+	});
+	
+	if(form !== ''){      
+        $('body').addClass(form);
+    }
+	
 	submitButton.click(function() {
 		$('body').addClass('success');
 	});
