@@ -85,6 +85,7 @@
 			top: 0;
 			left: 0;
 			display: none;
+			z-index: 999999;
 		}
 		.form-success-message-overlay {
 			position: fixed;
