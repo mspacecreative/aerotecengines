@@ -144,7 +144,7 @@
 		submitButton.click(function() {
 		    $('body').toggleClass('success');
 		    if($('body').hasClass('success')){
-		        sessionStorage.setItem('form', 'success');
+		        localStorage.setItem('form', 'success');
 		    }
 		});
 	
@@ -152,7 +152,7 @@
 		$('body').addClass('success');
 	});
 		
-		var form = sessionStorage.getItem('form');
+		var form = localStorage.getItem('form');
 		if(form !== ''){      
 	        $('body').addClass(form);
 	    }
