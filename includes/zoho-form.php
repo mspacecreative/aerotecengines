@@ -51,60 +51,6 @@
 		.zoho_submit_container input[type=submit] {
 			margin-right: 10px;
 		}
-		.closeModalButton {
-		    border: none;
-		    margin: 0;
-		    padding: 0;
-		    position: absolute;
-		    width: 20px;
-		    height: 20px;
-		    background-color: transparent;
-		    outline: none;
-		    right: 2em;
-		    top: 1em;
-		    cursor: pointer;
-		    z-index: 999;
-		}
-		.closeModalButton span {
-		    position: absolute;
-		    width: 20px;
-		    height: 2px;
-		    background-color: #000;
-		    transform: rotate(45deg);
-		    top: 50%;
-		    left: 50%;
-		    margin-left: -10px;
-		}
-		.closeModalButton span:nth-child(2) {
-		    transform: rotate(-45deg);
-		}
-		.form-success-message-container {
-			position: fixed;
-			height: auto;
-			width: auto;
-			top: 0;
-			left: 0;
-			display: none;
-			z-index: 999999;
-		}
-		.form-success-message-overlay {
-			position: fixed;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width: 100%;
-			background-color: rgba(0, 0, 0, .75);
-		}
-		.form-success-message-inner {
-			position: fixed;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%,-50%);
-			background-color: #fff;
-			padding: 2em;
-			width: 90%;
-			max-width: 600px;
-		}
 		@media (min-width: 981px) {
 			.zoho_left_col {
 				border-right: 1px solid #e9e9e9;

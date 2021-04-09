@@ -60,6 +60,17 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 <?php endif; // ! is_page_template( 'page-template-blank.php' ) ?>
 
 	</div> <!-- #page-container -->
+	
+	<div class="form-success-message-container">
+		<div class="form-success-message-overlay"></div>
+		
+		<div class="form-success-message-inner">
+			<button class="closeModalButton"><span>&nbsp;</span>
+				<span>&nbsp;</span></button>
+			
+			<p>Thank you for your request for quote. It has been received and we will be in touch soon.</p>
+		</div>
+	</div>
 
 	<?php wp_footer(); ?>
 </body>
