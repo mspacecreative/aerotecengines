@@ -2,7 +2,8 @@
 	
 	// OPEN OVERLAY ON ZOHO FORM SUBMISSION
 	var successMessage = $('.form-success-message-container');
-	$('#zoho-form').submit(function() {
+	$('#zoho-form').submit(function(e) {
+		e.preventDefault();
 		successMessage.fadeIn();
 	});
 	$('.closeModalButton').click(function() {
