@@ -4,21 +4,6 @@
 	var submitButton = $('#formsubmit');
 	var successMessage = $('.form-success-message-container');
 	
-	submitButton.click(function() {
-	    $('body').toggleClass('success');
-	    if($('body').hasClass('success')){
-	        lsessionStorage.setItem('form', 'success');
-	    }
-	});
-	
-	submitButton.click(function() {
-		$('body').addClass('success');
-	});
-	$(window).on('load', function() {
-		if ( $('body').hasClass('success') ) {
-			successMessage.fadeIn();
-		}
-	});
 	/*
 	var successMessage = $('.form-success-message-container');
 	$('#zoho-form').submit(function() {
@@ -156,10 +141,28 @@
 		pgwGallery();
 		checkSize();
 		
+		submitButton.click(function() {
+		    $('body').toggleClass('success');
+		    if($('body').hasClass('success')){
+		        sessionStorage.setItem('form', 'success');
+		    }
+		});
+	
+	submitButton.click(function() {
+		$('body').addClass('success');
+	});
+		
 		var form = sessionStorage.getItem('form');
 		if(form !== ''){      
 	        $('body').addClass(form);
 	    }
+		
+		
+		$(window).on('load', function() {
+			if ( $('body').hasClass('success') ) {
+				successMessage.fadeIn();
+			}
+		});
 		
 		$('.testimonials-slider, .photo-gallery').slick({
 		    dots: true,
