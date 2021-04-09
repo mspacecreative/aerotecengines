@@ -10,7 +10,7 @@
 		successMessage.fadeIn();
 	});
 	*/
-	$('.closeModalButton').click(function() {
+	$('.closeModalButton, .form-success-message-overlay').click(function() {
 		successMessage.fadeOut();
 		$('body').removeClass('success');
 	});
